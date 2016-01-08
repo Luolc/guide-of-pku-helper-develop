@@ -44,5 +44,16 @@ public class HoleListItemEntity {
 
 由于数据读取的结果不一定成功，为了处理各种状况，我们需要在Model层的方法中提供一个回调接口，在Presenter层实现具体的逻辑。
 
+> 我们约定回调接口定义如下：
+
+> ```java
+> public interface Callback<T> {
+>
+>     void onFinished(int code, T data);
+> 
+>     void onError(String msg);
+> }
+> ```
+
 
 
