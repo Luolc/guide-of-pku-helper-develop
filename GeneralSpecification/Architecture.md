@@ -55,7 +55,7 @@ public interface Callback<T> {
 }
 ```
 
-T为数据类型，code为状态码，data为数据，msg为错误时信息
+T为数据类型，code为状态码，data为数据，msg为错误时信息。
 
 
 
