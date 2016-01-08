@@ -109,10 +109,10 @@ public class ApiManager {
 
 - entity
 - model
-    - .impl
+    - impl
 - view
     - [subview_0]
-        - .impl
+        - impl
     - [subview_1]
 - presenter
 - manager
