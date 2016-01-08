@@ -1,4 +1,3 @@
-My Awesome Book
-=======
+# PKU Helper开发指南
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本文档为PKU Helper(Android)开发指南，包括架构规范，文件树概览等。
