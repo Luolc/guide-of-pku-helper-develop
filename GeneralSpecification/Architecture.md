@@ -62,5 +62,7 @@ T为数据类型，code为状态码，data为数据，msg为错误时信息。
 
 实例化时，传入对应的Model和View，借助两者预留的接口，实现业务逻辑的方法。
 
+在对应的View中，在响应用户操作的部分，例如onClickButton，我们会调用Presenter的逻辑方法，而不关心Presenter中逻辑的具体实现方式。
+
 
 
