@@ -67,5 +67,12 @@ T为数据类型，code为状态码，data为数据，msg为错误时信息。
 ### View
 视图层，实现UI更新的接口，在Presenter中被调用。响应用户操作时，调用Presenter中对应的逻辑接口实现，不关心逻辑的具体实现方法。
 
+### Manager
+公用方法库，必须被实例化才可以使用。
+
+例如：ApiManager，需要实例化的RequestQueue.
+
+一般的，如果该实例只需要存在一个即可，可以使用单实例架构，参加ApiManager的设计。
+
 
 
