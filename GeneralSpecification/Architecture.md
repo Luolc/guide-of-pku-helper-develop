@@ -34,7 +34,8 @@ public class HoleListItemEntity {
     private String url;
     private long hot;
 
-    // Getters and Setters
+    // Some Getters and Setters
+    // ...
 }
 ```
 
