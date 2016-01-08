@@ -72,7 +72,37 @@ T为数据类型，code为状态码，data为数据，msg为错误时信息。
 
 例如：ApiManager，需要实例化的RequestQueue.
 
-一般的，如果该实例只需要存在一个即可，可以使用单实例架构，参加ApiManager的设计。
+一般的，如果该实例只需要存在一个即可，可以使用单实例架构，参见ApiManager的设计：
+
+```java
+public class ApiManager {
+    // Some variables
+
+    private static RequestQueue mReqQueue;
+    private static ApiManager apiManager;
+    private AppContext mContext;
+
+    private ApiManager(Context context) {
+        mContext = (AppContext) context.getApplicationContext();
+        mReqQueue = Volley.newRequestQueue(mContext);
+    }
+
+    public synchronized static void newInstance(Context context) {
+        if (apiManager == null) {
+            apiManager = new ApiManager(context);
+        }
+    }
+
+    public static ApiManager getInstance() {
+        return apiManager;
+    }
+    
+    // Some functions
+}
+```
+
+### Util
+公用方法库，只包含静态方法，无须实例化。
 
 
 
