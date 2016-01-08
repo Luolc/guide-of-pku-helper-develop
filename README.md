@@ -2,4 +2,7 @@
 
 本文档为PKU Helper(Android)开发指南，托管在GitBook.
 
+文档版本：V0.0.1
+文档作者：骆梁宸
+
 
