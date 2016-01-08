@@ -1,6 +1,6 @@
 # 架构
 
-## 逻辑层级
+## 概览
 | Name | Description |
 | -- | -- |
 | Entity | 数据实体，一般直接对应Json包或者ListItem |
