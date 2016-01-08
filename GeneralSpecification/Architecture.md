@@ -22,7 +22,21 @@
 包括数据的成员变量和相应的Getter，Setter.
 
 例如这是一个典型的Entity
+```java
+public class HoleListItemEntity {
+    private int pid;
+    private String text;
+    private String type;
+    private long timestamp;
+    private int reply;
+    private int likenum;
+    private int extra;
+    private String url;
+    private long hot;
 
+    // Getters and Setters
+}
+```
 
 
 
