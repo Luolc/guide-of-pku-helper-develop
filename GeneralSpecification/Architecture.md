@@ -57,5 +57,10 @@ public interface Callback<T> {
 
 T为数据类型，code为状态码，data为数据，msg为错误时信息。
 
+### Presenter
+逻辑层，实现应用的业务逻辑。是应用架构的最主要层。
+
+
+
 
 
