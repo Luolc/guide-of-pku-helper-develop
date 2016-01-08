@@ -111,10 +111,14 @@ public class ApiManager {
 - model
     - .impl
 - view
-    - .impl
+    - [subview_0]
+        - .impl
+    - [subview_1]
 - presenter
 - manager
 - util
+
+注：View中由于每一个模块可能包含多个Activity或Fragment，应当在view下为每个模块建立子包，例如com.pkuhelper.view.pkuhole
 
 
 
