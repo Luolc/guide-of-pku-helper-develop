@@ -127,7 +127,7 @@ public class ApiManager {
 | Model Interface | I[ModelName]Mod | IPkuHoleMod |
 | Model Implementation | [ModelName]Mod | PkuHoleMod |
 | View Interface | I[ViewName]View | IPkuHoleView |
-| View Implementation | [ViewName]Activity|Fragment | PkuHoleActivity|MyPkuFragment |
+| View Implementation | [ViewName]Activity\|Fragment | PkuHoleActivity\|MyPkuFragment |
 | Presenter | [PresenterName]Presenter | PkuHolePresenter |
 | Manager | [ManagerName]Manager | ApiManager |
 | Util | [UtilName]Util | TimeUtil |
