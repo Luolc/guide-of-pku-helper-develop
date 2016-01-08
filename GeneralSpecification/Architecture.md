@@ -3,7 +3,7 @@
 
 此外，引入Manager和Util层，负责封装全应用范围内的公用方法。
 
-应用包含一个Config接口，用来配置应用的常量。
+应用包含唯一一个Config接口，用来配置应用的常量。
 
 ## 概览
 | Layer | Description |
