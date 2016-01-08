@@ -120,5 +120,19 @@ public class ApiManager {
 
 注：View中由于每一个模块可能包含多个Activity或Fragment，应当在view下为每个模块建立子包，例如com.pkuhelper.view.pkuhole
 
+## 类命名规范
+| Class | Rule | Example |
+| -- | -- | -- |
+| Entity | [DataName]Entity | HoleListItemEntity |
+| Model Interface | I[ModelName]Mod | IPkuHoleMod |
+| Model Implementation | [ModelName]Mod | PkuHoleMod |
+| View Interface | I[ViewName]View | IPkuHoleView |
+| View Implementation | [ViewName]Activity|Fragment | PkuHoleActivity|MyPkuFragment |
+| Presenter | [PresenterName]Presenter | PkuHolePresenter |
+| Manager | [ManagerName]Manager | ApiManager |
+| Util | [UtilName]Util | TimeUtil |
+
+
+
 
 
