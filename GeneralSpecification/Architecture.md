@@ -17,7 +17,7 @@
 
 ## 详解
 
-### Entity
+#### Entity
 数据实体，一般对应Json包或者ListItem的数据格式。
 包括数据的成员变量和相应的Getter，Setter.
 
@@ -39,7 +39,7 @@ public class HoleListItemEntity {
 }
 ```
 
-### Model
+#### Model
 模型层，负责数据的获取和发送。包括向服务器网络请求，从本地文件或缓存读写。
 
 由于数据读取的结果不一定成功，为了处理各种状况，我们需要在Model层的方法中提供一个回调接口，在Presenter层实现具体的逻辑。
@@ -57,17 +57,17 @@ public interface Callback<T> {
 
 T为数据类型，code为状态码，data为数据，msg为错误时信息。
 
-### Presenter
+#### Presenter
 逻辑层，实现应用的业务逻辑。是应用架构的最主要层。
 
 实例化时，传入对应的Model和View，借助两者预留的接口，实现业务逻辑的方法。
 
 在对应的View中，在响应用户操作的部分，例如onClickButton，我们会调用Presenter的逻辑方法，而不关心Presenter中逻辑的具体实现方式。
 
-### View
+#### View
 视图层，实现UI更新的接口，在Presenter中被调用。响应用户操作时，调用Presenter中对应的逻辑接口实现，不关心逻辑的具体实现方法。
 
-### Manager
+#### Manager
 公用方法库，必须被实例化才可以使用。
 
 例如：ApiManager，需要实例化的RequestQueue.
@@ -101,7 +101,7 @@ public class ApiManager {
 }
 ```
 
-### Util
+#### Util
 公用方法库，只包含静态方法，无须实例化。
 
 ## 分包
