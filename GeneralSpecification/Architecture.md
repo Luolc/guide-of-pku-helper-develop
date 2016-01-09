@@ -9,7 +9,7 @@
 | Layer | Description |
 | -- | -- |
 | Entity | 数据实体，一般直接对应Json包或者ListItem |
-| Modle | 模型层，负责数据的获取和发送（包括网络、本地和缓存） |
+| Model | 模型层，负责数据的获取和发送（包括网络、本地和缓存） |
 | Presenter | 逻辑层，实现应用的业务逻辑 |
 | View | 视图层，实现UI更新，当响应用户操作时，调用对应的Presenter来实现逻辑 |
 | Manager | 公用方法库，必须被实例化才可以使用 |
