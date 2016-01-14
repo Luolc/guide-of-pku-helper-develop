@@ -126,8 +126,9 @@ public class ApiManager {
 | Entity | [DataName]Entity | HoleListItemEntity |
 | Model Interface | I[ModelName]Mod | IPkuHoleMod |
 | Model Implementation | [ModelName]Mod | PkuHoleMod |
-| View Interface | I[ViewName]View | IPkuHoleView |
+| View Interface | I[ViewName]UI | IPkuHoleUI |
 | View Implementation | [ViewName]Activity(Fragment) | PkuHoleActivity, MyPkuFragment |
+| View Adapter | [AdapterName]Adapter | HoleListAdapter |
 | Presenter | [PresenterName]Presenter | PkuHolePresenter |
 | Manager | [ManagerName]Manager | ApiManager |
 | Util | [UtilName]Util | TimeUtil |
