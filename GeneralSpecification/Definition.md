@@ -3,6 +3,21 @@
 ## 分包
 统一使用小写，格式为com.pkuhelper.[层级名称].[模块名称]
 
+形如：
+
+- entity
+- model
+    - impl
+- ui
+    - [subview_0]
+        - impl
+    - [subview_1]
+- presenter
+- manager
+- util
+
+## 类
+
 ## 布局文件
 
 | Type | Rule | Example |
