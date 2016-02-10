@@ -7,3 +7,5 @@
     * [命名](GeneralSpecification/Definition.md)
 * [模块解析](ModuleAnalysis/README.md)
     * [P大树洞](ModuleAnalysis/PkuHole.md)
+* [开发与调试](DevelopAndDebug/README.md)
+    * [ADB调试指南](DevelopAndDebug/AdbGuide.md)
